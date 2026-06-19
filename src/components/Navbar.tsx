@@ -43,22 +43,20 @@ export default function Navbar() {
           : 'bg-gradient-to-b from-black/60 to-transparent'
       }`}
     >
-      <nav className="container-px flex h-16 items-center justify-between lg:h-20">
+      <nav className="container-px flex h-24 items-center justify-between lg:h-28">
         {/* Brand logo */}
         <a
           href="#inicio"
           className="group flex items-center"
           aria-label="Viajando con Gonzalo Tours"
         >
-          <span className="flex items-center justify-center rounded-full bg-white p-1.5 shadow-md ring-1 ring-white/20 transition-all duration-300 group-hover:shadow-lg group-hover:ring-white/40">
-            <img
-              src="/VG_LOGO.png"
-              alt="Viajando con Gonzalo Tours"
-              width={160}
-              height={160}
-              className="h-10 w-auto object-contain lg:h-12"
-            />
-          </span>
+          <img
+            src="/VG_LOGO.png"
+            alt="Viajando con Gonzalo Tours"
+            width={320}
+            height={320}
+            className="h-20 w-auto object-contain transition-opacity duration-300 group-hover:opacity-80 lg:h-24"
+          />
         </a>
 
         {/* Desktop nav links */}

@@ -28,16 +28,14 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
           {/* Brand column */}
           <div>
-            <a href="#inicio" aria-label="Viajando con Gonzalo Tours" className="inline-block">
-              <span className="flex items-center justify-center rounded-2xl bg-white p-3 shadow-lg ring-1 ring-white/10 transition-opacity hover:opacity-90">
-                <img
-                  src="/VG_LOGO.png"
-                  alt="Viajando con Gonzalo Tours"
-                  width={220}
-                  height={220}
-                  className="h-24 w-auto object-contain"
-                />
-              </span>
+            <a href="#inicio" aria-label="Viajando con Gonzalo Tours" className="inline-block transition-opacity hover:opacity-80">
+              <img
+                src="/VG_LOGO.png"
+                alt="Viajando con Gonzalo Tours"
+                width={440}
+                height={440}
+                className="h-48 w-auto object-contain"
+              />
             </a>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/70">
               {t('footer.tagline')}

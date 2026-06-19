@@ -30,15 +30,13 @@ export default function Hero() {
           className="mb-8 flex justify-center opacity-0 animation-fade-in-down"
           style={{ animationDelay: '0s' }}
         >
-          <span className="flex items-center justify-center rounded-full bg-white p-2.5 shadow-2xl shadow-black/40 ring-2 ring-white/20 backdrop-blur-sm">
-            <img
-              src="/VG_LOGO.png"
-              alt="Viajando con Gonzalo Tours"
-              width={320}
-              height={320}
-              className="h-24 w-auto object-contain sm:h-28 lg:h-32"
-            />
-          </span>
+          <img
+            src="/VG_LOGO.png"
+            alt="Viajando con Gonzalo Tours"
+            width={640}
+            height={640}
+            className="h-48 w-auto object-contain sm:h-56 lg:h-64"
+          />
         </div>
 
         <p

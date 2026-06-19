@@ -28,15 +28,7 @@ export default function WhyChooseUs() {
   return (
     <section id="por-que-elegirnos" className="bg-gray-50 py-20 sm:py-28">
       <div className="container-px">
-        <div className="mx-auto max-w-3xl text-center">
-          <span className="reveal section-eyebrow">{t('why.eyebrow')}</span>
-          <h2 className="reveal reveal-delay-1 section-title">{t('why.title')}</h2>
-          <p className="reveal reveal-delay-2 mx-auto mt-5 max-w-2xl text-gray-600">
-            {t('why.subtitle')}
-          </p>
-        </div>
-
-        <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
           {items.map((item, i) => {
             const Icon = item.icon;
             return (
