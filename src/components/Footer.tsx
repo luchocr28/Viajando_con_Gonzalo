@@ -28,7 +28,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
           {/* Brand column */}
           <div>
-            <a href="#inicio" aria-label="Viajando con Gonzalo Tours" className="inline-block transition-opacity hover:opacity-80">
+            <a href="#inicio" aria-label="Viajando con Gonzalo Tours" className="inline-flex items-center justify-center rounded-2xl bg-white/10 px-4 py-3 backdrop-blur-sm transition-all duration-300 hover:bg-white/15">
               <img
                 src="/VG_LOGO.png"
                 alt="Viajando con Gonzalo Tours"

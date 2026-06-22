@@ -50,13 +50,15 @@ export default function Navbar() {
           className="group flex items-center"
           aria-label="Viajando con Gonzalo Tours"
         >
-          <img
-            src="/VG_LOGO.png"
-            alt="Viajando con Gonzalo Tours"
-            width={320}
-            height={320}
-            className="h-20 w-auto object-contain transition-opacity duration-300 group-hover:opacity-80 lg:h-24"
-          />
+          <span className="flex items-center justify-center rounded-2xl bg-white/15 px-3 py-2 backdrop-blur-sm transition-all duration-300 group-hover:bg-white/20">
+            <img
+              src="/VG_LOGO.png"
+              alt="Viajando con Gonzalo Tours"
+              width={320}
+              height={320}
+              className="h-20 w-auto object-contain lg:h-24"
+            />
+          </span>
         </a>
 
         {/* Desktop nav links */}
