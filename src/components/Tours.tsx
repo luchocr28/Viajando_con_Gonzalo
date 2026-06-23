@@ -292,16 +292,8 @@ function TourCardComponent({ tour, index }: { tour: TourCard; index: number }) {
         <TourAccordion items={accordionItems} tourId={tour.id} />
 
         <div className="mt-6 flex flex-wrap gap-3 border-t border-gray-100 pt-5">
-          {tour.ctaKey === 'reserve' ? (
-            <a
-              href={buildWhatsAppUrl(ctaMessage)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary flex-1 !py-3"
-            >
-              {t('tours.reserveNow')}
-            </a>
-          ) : (
+     
+       
             <a
               href={buildWhatsAppUrl(ctaMessage)}
               target="_blank"
@@ -311,7 +303,7 @@ function TourCardComponent({ tour, index }: { tour: TourCard; index: number }) {
               <MessageCircle className="h-4 w-4" />
               {t('tours.requestInfo')}
             </a>
-          )}
+       
           <a
             href={tour.brochureUrl}
             className="inline-flex items-center justify-center gap-2 rounded-full border border-primary/30 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-primary transition-all hover:bg-primary hover:text-white"
