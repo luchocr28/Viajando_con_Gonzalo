@@ -17,8 +17,8 @@ npm install          # Instalar dependencias
 npm run dev          # Iniciar el proyecto
 
 
-*El proyecto corre en: http://localhost:5173*
-*Para detenerlo, presiona Ctrl + C en la terminal.*
+El proyecto corre en: http://localhost:5173
+Para detenerlo, presiona Ctrl + C en la terminal.
 
 
 ## 🌟 Estructura del Proyecto
@@ -38,8 +38,10 @@ public/              # Archivos estáticos (imágenes, videos, etc.)
 ├── favicon.svg
 └── ...
 
-*<img src="/VG_LOGO.png" alt="Logo" />*
-*<video src="/CR.mp4" />*
+
+Los archivos dentro de public se llaman usando /.
+<img src="/VG_LOGO.png" alt="Logo" />
+<video src="/CR.mp4" />
 
 
 ## 🌟 Git - Comandos Básicos
