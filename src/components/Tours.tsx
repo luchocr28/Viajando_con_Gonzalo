@@ -303,6 +303,7 @@ function TourCardComponent({ tour, index }: { tour: TourCard; index: number }) {
           </a>
           <a
             href={tour.brochureUrl}
+            target="_blank"
             className="inline-flex items-center justify-center gap-2 rounded-full border border-primary/30 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-primary transition-all hover:bg-primary hover:text-white"
           >
             <Download className="h-4 w-4" />
