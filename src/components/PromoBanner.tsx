@@ -8,8 +8,8 @@ export default function PromoBanner() {
     <section id="promo" className="relative overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/cr_beach.webp"
-          alt="Costa Rica Beach"
+          src="https://images.pexels.com/photos/2406731/pexels-photo-2406731.jpeg?auto=compress&cs=tinysrgb&w=1800"
+          alt="Costa Rica rainforest canopy"
           loading="lazy"
           className="h-full w-full object-cover"
         />
