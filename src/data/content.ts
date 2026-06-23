@@ -20,7 +20,7 @@ export type TourCard = {
 export const tours: TourCard[] = [
   {
     id: 'three-wonders',
-    image: 'https://images.pexels.com/photos/13195322/pexels-photo-13195322.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: '/CR_vocalno.webp',
     duration: { es: '8 días / 7 noches', en: '8 days / 7 nights' },
     price: 'Desde USD $1,990 por persona',
     route: {
@@ -80,7 +80,7 @@ export const tours: TourCard[] = [
   },
   {
     id: 'monteverde-experience',
-    image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: '/CR_forest.webp',
     duration: { es: '3 días / 2 noches', en: '3 days / 2 nights' },
     price: '',
     route: { es: [], en: [] },
@@ -127,7 +127,7 @@ export const tours: TourCard[] = [
   },
   {
     id: 'caribbean-premium',
-    image: 'https://images.pexels.com/photos/2598683/pexels-photo-2598683.jpeg?auto=compress&cs=tinysrgb&w=1600',
+    image: '/CR_caribe.webp',
     duration: { es: '3 días / 2 noches', en: '3 days / 2 nights' },
     price: '',
     route: {
