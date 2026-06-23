@@ -23,7 +23,7 @@ export default function Contact() {
           <div>
             <span className="reveal section-eyebrow">{t('contact.eyebrow')}</span>
             <h2 className="reveal reveal-delay-1 section-title">{t('contact.title')}</h2>
-            <p className="reveal reveal-delay-2 mt-5 max-w-md text-gray-600">
+            <p className="reveal reveal-delay-2 mt-5 max-w-md text-gray-800">
               {t('contact.text')}
             </p>
 
@@ -102,7 +102,7 @@ export default function Contact() {
 
               <div className="flex items-start gap-3 rounded-2xl border border-gray-200 bg-white p-4">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-lightblue" />
-                <p className="text-sm text-gray-600">
+                <p className="text-sm text-gray-800">
                   San José, Costa Rica · Turismo receptivo
                 </p>
               </div>

@@ -11,7 +11,7 @@ export default function About() {
           <div>
             <span className="reveal section-eyebrow">{t('about.eyebrow')}</span>
             <h2 className="reveal reveal-delay-1 section-title">{t('about.title')}</h2>
-            <div className="reveal reveal-delay-2 mt-6 space-y-4 text-base leading-relaxed text-gray-600">
+            <div className="reveal reveal-delay-2 mt-6 space-y-4 text-base leading-relaxed text-gray-800">
               <p>{t('about.p1')}</p>
               <p>{t('about.p2')}</p>
               <p>{t('about.p3')}</p>

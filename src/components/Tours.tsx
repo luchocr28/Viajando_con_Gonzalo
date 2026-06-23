@@ -54,7 +54,7 @@ function TourAccordion({ items, tourId }: { items: TourAccordionItem[]; tourId: 
               }`}
             >
               <div className="overflow-hidden">
-                <div className="px-5 pb-4 text-sm text-gray-600">{item.body}</div>
+                <div className="px-5 pb-4 text-sm text-gray-800">{item.body}</div>
               </div>
             </div>
           </div>
@@ -325,7 +325,7 @@ export default function Tours() {
         <div className="mx-auto max-w-3xl text-center">
           <span className="reveal section-eyebrow">{t('tours.eyebrow')}</span>
           <h2 className="reveal reveal-delay-1 section-title">{t('tours.title')}</h2>
-          <p className="reveal reveal-delay-2 mx-auto mt-5 max-w-2xl text-gray-600">
+          <p className="reveal reveal-delay-2 mx-auto mt-5 max-w-2xl text-gray-800">
             {t('tours.subtitle')}
           </p>
         </div>

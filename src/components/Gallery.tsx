@@ -47,7 +47,7 @@ export default function Gallery() {
         <div className="mx-auto max-w-3xl text-center">
           <span className="reveal section-eyebrow">{t('gallery.eyebrow')}</span>
           <h2 className="reveal reveal-delay-1 section-title">{t('gallery.title')}</h2>
-          <p className="reveal reveal-delay-2 mx-auto mt-5 max-w-2xl text-gray-600">
+          <p className="reveal reveal-delay-2 mx-auto mt-5 max-w-2xl text-gray-800">
             {t('gallery.subtitle')}
           </p>
         </div>
