@@ -12,6 +12,7 @@ import Discover from './components/Discover';
 import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 function AppContent() {
   useScrollReveal();
@@ -32,6 +33,7 @@ function AppContent() {
         <Contact />
       </main>
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }
