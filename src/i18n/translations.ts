@@ -64,7 +64,6 @@ export type TranslationKey =
   | 'tours.guaranteedDepartures'
   | 'tours.additionalInfo'
   | 'tours.brochure'
-  | 'tours.reserveNow'
   | 'tours.requestInfo'
   | 'gallery.eyebrow'
   | 'gallery.title'
@@ -186,7 +185,6 @@ const es: Record<TranslationKey, string> = {
   'tours.guaranteedDepartures': 'Salidas garantizadas',
   'tours.additionalInfo': 'Información adicional',
   'tours.brochure': 'Descargar Brochure',
-  'tours.reserveNow': 'Reservar Ahora',
   'tours.requestInfo': 'Solicitar Información',
   'gallery.eyebrow': 'Galería',
   'gallery.title': 'Costa Rica en imágenes',
@@ -310,7 +308,6 @@ const en: Record<TranslationKey, string> = {
   'tours.guaranteedDepartures': 'Guaranteed departures',
   'tours.additionalInfo': 'Additional information',
   'tours.brochure': 'Download Brochure',
-  'tours.reserveNow': 'Reserve Now',
   'tours.requestInfo': 'Request Information',
   'gallery.eyebrow': 'Gallery',
   'gallery.title': 'Costa Rica in pictures',

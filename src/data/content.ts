@@ -14,7 +14,6 @@ export type TourCard = {
   }[];
   departures: string[];
   additionalInfo: { es: string; en: string };
-  ctaKey: 'reserve' | 'info';
   brochureUrl: string;
 };
 
@@ -77,7 +76,6 @@ export const tours: TourCard[] = [
       es: 'Salidas garantizadas en agosto y septiembre. Cupos limitados. Reserva con anticipación para asegurar disponibilidad de hoteles y tours.',
       en: 'Guaranteed departures in August and September. Limited spots. Book in advance to secure hotel and tour availability.',
     },
-    ctaKey: 'reserve',
     brochureUrl: '#',
   },
   {
@@ -125,7 +123,6 @@ export const tours: TourCard[] = [
       es: 'Salidas privadas bajo reserva. Sujeto a disponibilidad de temporada seca. Recomendamos llevar ropa ligera, repelente de insectos y calzado cómodo para senderos.',
       en: 'Private departures on request. Subject to dry-season availability. We recommend lightweight clothing, insect repellent and comfortable trail footwear.',
     },
-    ctaKey: 'info',
     brochureUrl: '#',
   },
   {
@@ -153,7 +150,6 @@ export const tours: TourCard[] = [
       es: 'Salidas privadas bajo reserva. Sujeto a disponibilidad de temporada seca. Recomendamos llevar ropa ligera, repelente de insectos y calzado cómodo para senderos.',
       en: 'Private departures on request. Subject to dry-season availability. We recommend lightweight clothing, insect repellent and comfortable trail footwear.',
     },
-    ctaKey: 'info',
     brochureUrl: '#',
   },
 ];
