@@ -165,7 +165,7 @@ export type GalleryItem = {
 export const galleryItems: GalleryItem[] = [
   {
     id: 'arenal',
-    image: '/Gallery/1_Volcan.webp',
+    image: '/Gallery/1-Volcan.webp',
     location: { es: 'Volcán Arenal', en: 'Arenal Volcano' },
     description: {
       es: 'El imponente Volcán Arenal domina el horizonte de La Fortuna con su cono perfecto.',
