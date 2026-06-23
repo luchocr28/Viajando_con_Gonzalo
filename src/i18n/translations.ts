@@ -87,9 +87,6 @@ export type TranslationKey =
   | 'why.item7Desc'
   | 'why.item8Title'
   | 'why.item8Desc'
-  | 'discover.eyebrow'
-  | 'discover.title'
-  | 'discover.subtitle'
   | 'testimonial.quote'
   | 'testimonial.attribute'
   | 'contact.eyebrow'
@@ -208,9 +205,6 @@ const es: Record<TranslationKey, string> = {
   'why.item7Desc': 'Soluciones privadas o compartidas según prefiera.',
   'why.item8Title': 'Itinerarios a medida',
   'why.item8Desc': 'Cada viaje se diseña según sus intereses.',
-  'discover.eyebrow': 'Descubra Costa Rica',
-  'discover.title': 'Un país, infinitas experiencias',
-  'discover.subtitle': 'Seis mundos naturales en un solo destino.',
   'testimonial.quote':
     'Costa Rica no es solo un destino; es una experiencia que permanecerá con usted para siempre.',
   'testimonial.attribute': 'Viajando con Gonzalo Tours',

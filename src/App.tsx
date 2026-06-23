@@ -8,7 +8,6 @@ import CustomTours from './components/CustomTours';
 import Tours from './components/Tours';
 import Gallery from './components/Gallery';
 import WhyChooseUs from './components/WhyChooseUs';
-import Discover from './components/Discover';
 import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -28,7 +27,6 @@ function AppContent() {
         <Tours />
         <Gallery />
         <WhyChooseUs />
-        <Discover />
         <Testimonial />
         <Contact />
       </main>
