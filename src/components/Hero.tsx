@@ -45,7 +45,7 @@ export default function Hero() {
           className="mb-5 text-xs font-semibold uppercase tracking-[0.35em] text-white/80 opacity-0 animation-fade-in-down"
           style={{ animationDelay: '0.2s' }}
         >
-          Costa Rica · Turismo receptivo desde 1990
+          Costa Rica · Turismo
         </p>
         <h1
           className="mx-auto max-w-5xl font-display text-3xl font-semibold leading-[1.15] sm:text-5xl lg:text-6xl opacity-0 animation-fade-in-up"

@@ -1,8 +1,8 @@
 import type { Language } from '../i18n/translations';
 
-export const WHATSAPP_NUMBER = '50660585041';
-export const WHATSAPP_DISPLAY = '(+506) 60585041';
-export const CONTACT_EMAIL = 'luchocr28@gmail.com';
+export const WHATSAPP_NUMBER = '50671248717';
+export const WHATSAPP_DISPLAY = '(+506) 71248717';
+export const CONTACT_EMAIL = 'gonzalo@viajandocongonzalo506.com';
 export const COMPANY_NAME = 'Viajando con Gonzalo Tours';
 
 export const buildWhatsAppUrl = (message: string): string => {
@@ -15,7 +15,7 @@ export const WHATSAPP_DEFAULT_MESSAGE: Record<Language, string> = {
   en: 'Hello Viajando con Gonzalo Tours, I would like more information about Costa Rica tours.',
 };
 
-export const INSTAGRAM_URL = 'https://www.instagram.com/';
-export const FACEBOOK_URL = 'https://www.facebook.com/';
+export const INSTAGRAM_URL = 'https://www.instagram.com/viajandocongonzalotours';
+export const FACEBOOK_URL = 'https://www.facebook.com/profile.php?id=61590193317847';
 export const INSTAGRAM_HANDLE = 'Viajando con Gonzalo Tours';
 export const FACEBOOK_HANDLE = 'Viajando con Gonzalo Tours';

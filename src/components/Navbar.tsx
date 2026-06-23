@@ -50,7 +50,7 @@ export default function Navbar() {
           className="group flex items-center"
           aria-label="Viajando con Gonzalo Tours"
         >
-          <span className="flex items-center justify-center rounded-2xl bg-white/15 px-3 py-2 backdrop-blur-sm transition-all duration-300 group-hover:bg-white/20">
+          <span className="flex items-center justify-center rounded-2xl bg-white/15 backdrop-blur-sm transition-all duration-300 group-hover:bg-white/20">
             <img
               src="/VG_LOGO.png"
               alt="Viajando con Gonzalo Tours"
