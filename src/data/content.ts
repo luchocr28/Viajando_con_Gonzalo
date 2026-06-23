@@ -165,7 +165,7 @@ export type GalleryItem = {
 export const galleryItems: GalleryItem[] = [
   {
     id: 'arenal',
-    image: 'https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: '/Gallery/1_Volcan.webp',
     location: { es: 'Volcán Arenal', en: 'Arenal Volcano' },
     description: {
       es: 'El imponente Volcán Arenal domina el horizonte de La Fortuna con su cono perfecto.',
@@ -175,7 +175,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'monteverde',
-    image: 'https://images.pexels.com/photos/2406731/pexels-photo-2406731.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: '/CR_forest.webp',
     location: { es: 'Monteverde', en: 'Monteverde' },
     description: {
       es: 'El bosque nuboso de Monteverde alberga una biodiversidad única en el mundo.',
@@ -185,7 +185,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'manuel-antonio',
-    image: 'https://images.pexels.com/photos/2598683/pexels-photo-2598683.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: '/CR_caribe.webp',
     location: { es: 'Manuel Antonio', en: 'Manuel Antonio' },
     description: {
       es: 'Playas de arena blanca rodeadas de selva tropical en el Parque Nacional Manuel Antonio.',
@@ -195,7 +195,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'beaches',
-    image: 'https://images.pexels.com/photos/2598683/pexels-photo-2598683.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: '/CR_beach.webp',
     location: { es: 'Playas', en: 'Beaches' },
     description: {
       es: 'Costa Rica cuenta con más de 300 playas en el Caribe y el Pacífico.',
@@ -205,7 +205,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'rainforest',
-    image: 'https://images.pexels.com/photos/2406731/pexels-photo-2406731.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: '/Gallery/6-Iguana.webp',
     location: { es: 'Selva Tropical', en: 'Rainforest' },
     description: {
       es: 'Bosques lluviosos que albergan el 5% de la biodiversidad mundial.',
@@ -215,7 +215,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'wildlife',
-    image: 'https://images.pexels.com/photos/2476054/pexels-photo-2476054.jpeg?auto=compress&cs=tinysrgb&w=1200',
+    image: '/Gallery/5-vida_silvestre.webp',
     location: { es: 'Vida Silvestre', en: 'Wildlife' },
     description: {
       es: 'Perezosos, monos, tucanes y ranas rojas conviven en nuestros bosques.',
