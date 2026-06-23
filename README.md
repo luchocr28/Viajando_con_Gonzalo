@@ -1,42 +1,35 @@
-Proyecto: Viajando con Gonzalo
+# Viajando con Gonzalo
 
-Stack:
-- React + TypeScript
-- Vite
-- Tailwind CSS
-- Supabase
+Aplicación web desarrollada con **React + TypeScript + Vite**.
 
-Comandos principales:
+---
 
-Iniciar proyecto:
-npm run dev
+### Stack Tecnológico
+- **React + TypeScript**
+- **Vite**
+- **Tailwind CSS**
+- **Supabase**
 
-Detener localhost:
-Ctrl + C
+---
 
-Instalar dependencias:
-npm install
+### Comandos Principales
 
-Estructura:
-src/ → código principal (componentes, páginas, estilos)
-public/ → imágenes, videos y archivos estáticos
+```bash
+npm install         # Instalar dependencias
+npm run dev         # Iniciar en modo desarrollo (localhost:5173)
+npm run build       # Generar versión de producción
+npm run preview     # Previsualizar la versión de producción
 
-Imágenes/videos en public:
-Se llaman con "/" al inicio:
-Ejemplo:
-<img src="/VG_LOGO.png" />
-<video src="/CR.mp4" />
-
-
+### Estructura del Proyecto
 
 src/                 # Código principal de la aplicación
 ├── App.tsx
 ├── main.tsx
 ├── components/      # Componentes reutilizables
-├── pages/           # Páginas
+├── pages/           # Páginas de la aplicación
 ├── hooks/           # Custom hooks
-├── utils/           # Utilidades
-└── assets/          # Recursos dentro de src
+├── utils/           # Utilidades y helpers
+└── assets/          # Recursos (imágenes, etc.)
 
 public/              # Archivos estáticos (imágenes, videos, etc.)
 ├── VG_LOGO.png
@@ -44,40 +37,31 @@ public/              # Archivos estáticos (imágenes, videos, etc.)
 ├── favicon.svg
 └── ...
 
-Git:
-Ver cambios:
-git status
+### Los archivos dentro de public/ se acceden con / al inicio:
+<img src="/VG_LOGO.png" alt="Logo" />
+<video src="/CR.mp4" />
 
-Guardar cambios:
+
+### Git - Comandos Básicos
+git status
 git add .
 git commit -m "Descripción del cambio"
 git push
 
-No modificar:
-node_modules/
 
 
-
-En un proyecto Vite + React, el comando para generar la versión de producción es:
-
-npm run build
-
-
-Eso ejecuta:
-
-"build": "vite build"
-
-que vi en tu package.json.
-
-
-# Flujo típico
+### Flujo Típico de Trabajo
 git pull
 npm install
-npm run build
-npm run preview
+npm run dev          # Para desarrollo
 
-Después del build
 
-Se crea una carpeta:
+## Para produccion
+npm run build        # Genera la carpeta dist/
+npm run preview      # Previsualiza la build
 
-dist/
+
+##Importante - No tocar
+
+node_modules/ → Se genera automáticamente. No subir al repositorio.
+Carpeta dist/ → Se genera al hacer npm run build.
