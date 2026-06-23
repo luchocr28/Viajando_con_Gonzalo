@@ -13,10 +13,10 @@ export default function Hero() {
         muted
         loop
         playsInline
-        poster="https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=1600"
+        poster="/CR_COVER.jpg"
       >
         <source
-          src="https://cdn.coverr.co/videos/coverr-aerial-view-of-a-tropical-beach-3373/1080p.mp4"
+          src="CR_comprimido.mp4"
           type="video/mp4"
         />
       </video>
