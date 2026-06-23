@@ -36,7 +36,7 @@ export default function About() {
           <div className="relative">
             <div className="reveal reveal-delay-2 relative overflow-hidden rounded-3xl">
               <img
-                src="CR_VOCANO.webp"
+                src="https://images.pexels.com/photos/13195322/pexels-photo-13195322.jpeg?auto=compress&cs=tinysrgb&w=1000"
                 alt="Costa Rica landscape"
                 loading="lazy"
                 className="aspect-[4/5] w-full object-cover transition-transform duration-700 hover:scale-105"
