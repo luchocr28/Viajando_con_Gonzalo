@@ -38,7 +38,7 @@ export default function PromoBanner() {
             {['19 Agosto', '2 Septiembre'].map((date) => (
               <div
                 key={date}
-                className="flex items-center gap-3 rounded-2xl border border-white/20 bg-white/5 px-6 py-4 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-white/40 hover:bg-white/10"
+                className="flex items-center gap-3 rounded-2xl border  bg-white/5 px-6 py-4 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-white/40 hover:bg-white/10"
               >
                 <MapPin className="h-5 w-5 text-lightblue" />
                 <div className="text-left">
