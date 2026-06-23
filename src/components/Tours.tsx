@@ -54,7 +54,7 @@ function TourAccordion({ items, tourId }: { items: TourAccordionItem[]; tourId: 
               }`}
             >
               <div className="overflow-hidden">
-                <div className="px-5 pb-4 text-sm text-gray-800">{item.body}</div>
+                <div className="px-5 pb-4 text-sm text-gray-600">{item.body}</div>
               </div>
             </div>
           </div>
@@ -292,8 +292,16 @@ function TourCardComponent({ tour, index }: { tour: TourCard; index: number }) {
         <TourAccordion items={accordionItems} tourId={tour.id} />
 
         <div className="mt-6 flex flex-wrap gap-3 border-t border-gray-100 pt-5">
-     
-       
+          {tour.ctaKey === 'reserve' ? (
+            <a
+              href={buildWhatsAppUrl(ctaMessage)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary flex-1 !py-3"
+            >
+              {t('tours.reserveNow')}
+            </a>
+          ) : (
             <a
               href={buildWhatsAppUrl(ctaMessage)}
               target="_blank"
@@ -303,7 +311,7 @@ function TourCardComponent({ tour, index }: { tour: TourCard; index: number }) {
               <MessageCircle className="h-4 w-4" />
               {t('tours.requestInfo')}
             </a>
-       
+          )}
           <a
             href={tour.brochureUrl}
             className="inline-flex items-center justify-center gap-2 rounded-full border border-primary/30 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-primary transition-all hover:bg-primary hover:text-white"
@@ -325,7 +333,7 @@ export default function Tours() {
         <div className="mx-auto max-w-3xl text-center">
           <span className="reveal section-eyebrow">{t('tours.eyebrow')}</span>
           <h2 className="reveal reveal-delay-1 section-title">{t('tours.title')}</h2>
-          <p className="reveal reveal-delay-2 mx-auto mt-5 max-w-2xl text-gray-800">
+          <p className="reveal reveal-delay-2 mx-auto mt-5 max-w-2xl text-gray-600">
             {t('tours.subtitle')}
           </p>
         </div>

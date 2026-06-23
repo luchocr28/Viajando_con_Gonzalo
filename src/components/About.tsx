@@ -11,7 +11,7 @@ export default function About() {
           <div>
             <span className="reveal section-eyebrow">{t('about.eyebrow')}</span>
             <h2 className="reveal reveal-delay-1 section-title">{t('about.title')}</h2>
-            <div className="reveal reveal-delay-2 mt-6 space-y-4 text-base leading-relaxed text-gray-800">
+            <div className="reveal reveal-delay-2 mt-6 space-y-4 text-base leading-relaxed text-gray-600">
               <p>{t('about.p1')}</p>
               <p>{t('about.p2')}</p>
               <p>{t('about.p3')}</p>
@@ -36,8 +36,8 @@ export default function About() {
           <div className="relative">
             <div className="reveal reveal-delay-2 relative overflow-hidden rounded-3xl">
               <img
-                src="/CR_VOCANO.jpg"
-                alt="Costa Rica Volcano"
+                src="https://images.pexels.com/photos/13195322/pexels-photo-13195322.jpeg?auto=compress&cs=tinysrgb&w=1000"
+                alt="Costa Rica landscape"
                 loading="lazy"
                 className="aspect-[4/5] w-full object-cover transition-transform duration-700 hover:scale-105"
               />

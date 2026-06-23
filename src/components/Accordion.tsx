@@ -37,7 +37,7 @@ export default function Accordion({ items }: { items: AccordionItem[] }) {
               }`}
             >
               <div className="overflow-hidden">
-                <div className="px-6 pb-5 text-sm leading-relaxed text-gray-800">
+                <div className="px-6 pb-5 text-sm leading-relaxed text-gray-600">
                   {item.body}
                 </div>
               </div>
