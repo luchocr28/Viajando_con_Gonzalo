@@ -116,7 +116,7 @@ export const tours: TourCard[] = [
       es: 'Salidas garantizadas en agosto y septiembre. Cupos limitados. Reserva con anticipación para asegurar disponibilidad de hoteles y tours.',
       en: 'Guaranteed departures in August and September. Limited spots. Book in advance to secure hotel and tour availability.',
     },
-    brochureUrl: '/brochures/T1.png',
+    brochureUrl: 'brochures/T1.png',
   },
   {
     id: 'monteverde-experience',
@@ -177,7 +177,7 @@ export const tours: TourCard[] = [
       es: 'Salidas privadas bajo reserva. Sujeto a disponibilidad de temporada seca. Recomendamos llevar ropa ligera, repelente de insectos y calzado cómodo para senderos.',
       en: 'Private departures on request. Subject to dry-season availability. We recommend lightweight clothing, insect repellent and comfortable trail footwear.',
     },
-    brochureUrl: '/brochures/T2.png',
+    brochureUrl: 'brochures/T2.png',
   },
   {
     id: 'caribbean-premium',
@@ -233,7 +233,7 @@ export const tours: TourCard[] = [
       es: 'Salidas privadas bajo reserva. Sujeto a disponibilidad de temporada seca. Recomendamos llevar ropa ligera, repelente de insectos y calzado cómodo para senderos.',
       en: 'Private departures on request. Subject to dry-season availability. We recommend lightweight clothing, insect repellent and comfortable trail footwear.',
     },
-    brochureUrl: '/brochures/T3.png',
+    brochureUrl: 'brochures/T3.png',
   },
 ];
 
