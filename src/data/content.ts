@@ -20,7 +20,7 @@ export type TourCard = {
 export const tours: TourCard[] = [
   {
     id: 'three-wonders',
-    image: '/CR_vocalno.webp',
+    image: 'CR_vocalno.webp',
     duration: { es: '8 días / 7 noches', en: '8 days / 7 nights' },
     price: 'Desde USD $1,990 por persona',
     route: {
@@ -120,7 +120,7 @@ export const tours: TourCard[] = [
   },
   {
     id: 'monteverde-experience',
-    image: '/CR_forest.webp',
+    image: 'CR_forest.webp',
     duration: { es: '3 días / 2 noches', en: '3 days / 2 nights' },
     price: '',
     route: {
@@ -248,7 +248,7 @@ export type GalleryItem = {
 export const galleryItems: GalleryItem[] = [
   {
     id: 'arenal',
-    image: '/Gallery/1-Volcan.webp',
+    image: 'Gallery/1-Volcan.webp',
     location: { es: 'Volcán Arenal', en: 'Arenal Volcano' },
     description: {
       es: 'El imponente Volcán Arenal domina el horizonte de La Fortuna con su cono perfecto.',
@@ -258,7 +258,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'monteverde',
-    image: '/CR_forest.webp',
+    image: 'CR_forest.webp',
     location: { es: 'Monteverde', en: 'Monteverde' },
     description: {
       es: 'El bosque nuboso de Monteverde alberga una biodiversidad única en el mundo.',
@@ -278,7 +278,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'beaches',
-    image: '/CR_beach.webp',
+    image: 'CR_beach.webp',
     location: { es: 'Playas', en: 'Beaches' },
     description: {
       es: 'Costa Rica cuenta con más de 300 playas en el Caribe y el Pacífico.',
@@ -288,7 +288,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'rainforest',
-    image: '/Gallery/6-Iguana.webp',
+    image: 'Gallery/6-Iguana.webp',
     location: { es: 'Selva Tropical', en: 'Rainforest' },
     description: {
       es: 'Bosques lluviosos que albergan el 5% de la biodiversidad mundial.',
@@ -298,7 +298,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'wildlife',
-    image: '/Gallery/5-vida_silvestre.webp',
+    image: 'Gallery/5-vida_silvestre.webp',
     location: { es: 'Vida Silvestre', en: 'Wildlife' },
     description: {
       es: 'Perezosos, monos, tucanes y ranas rojas conviven en nuestros bosques.',
