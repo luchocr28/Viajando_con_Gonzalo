@@ -52,7 +52,7 @@ export default function Navbar() {
         >
           <span className="flex items-center justify-center rounded-2xl bg-white/15 backdrop-blur-sm transition-all duration-300 group-hover:bg-white/20">
             <img
-              src="/VG_LOGO.png"
+              src="VG_LOGO.png"
               alt="Viajando con Gonzalo Tours"
               width={320}
               height={320}

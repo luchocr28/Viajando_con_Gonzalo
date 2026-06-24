@@ -38,8 +38,8 @@ public/              # Archivos estáticos (imágenes, videos, etc.)
 └── ...
 
 ### Los archivos dentro de public/ se acceden con / al inicio:
-<img src="/VG_LOGO.png" alt="Logo" />
-<video src="/CR.mp4" />
+<img src="VG_LOGO.png" alt="Logo" />
+<video src="CR.mp4" />
 
 
 ### Git - Comandos Básicos

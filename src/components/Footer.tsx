@@ -30,7 +30,7 @@ export default function Footer() {
           <div>
             <a href="#inicio" aria-label="Viajando con Gonzalo Tours" className="inline-flex items-center justify-center rounded-xl bg-white px-3 py-2 transition-all duration-300 hover:bg-white/90">
               <img
-                src="/VG_LOGO.png"
+                src="VG_LOGO.png"
                 alt="Viajando con Gonzalo Tours"
                 width={440}
                 height={440}

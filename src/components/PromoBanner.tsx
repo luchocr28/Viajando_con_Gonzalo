@@ -8,7 +8,7 @@ export default function PromoBanner() {
     <section id="promo" className="relative overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="/CR_beach.webp"
+          src="CR_beach.webp"
           alt="Costa Rica rainforest canopy"
           loading="lazy"
           className="h-full w-full object-cover"
