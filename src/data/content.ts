@@ -96,6 +96,7 @@ export const tours: TourCard[] = [
     hotels: [
       { name: 'Hilton Garden Inn San José', url: 'https://www.hilton.com/en/hotels/sjohigi-hilton-garden-inn-san-jose-costa-rica/' },
       { name: 'Hotel Los Lagos Spa & Resort', url: ' https://los-lagos-spa-thermal-resort-experience.bookstaygo.com/es' },
+      { name: 'Monteverde Country Lodge', url: 'https://www.monteverdecountrylodge.com/' },
       { name: 'Alma Vida Hotel Manuel Antonio', url: 'https://www.almavidahotel.com/' },
     ],
     optionalActivities: [

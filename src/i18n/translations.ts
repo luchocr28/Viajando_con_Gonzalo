@@ -165,7 +165,7 @@ const es: Record<TranslationKey, string> = {
     'Por supuesto. Diseñamos viajes para individuos, parejas, familias y grupos privados. Ajustamos actividades según edades, intereses y ritmo de cada viajero.',
   'custom.accordion3Title': '¿Qué incluye un viaje personalizado?',
   'custom.accordion3Body':
-    'Incluye alojamiento seleccionado, transporte privado, tours guiados por certificados, asistencia 24/7 y un coordinador dedicado durante toda su estancia.',
+    'Incluye alojamiento seleccionado, transporte privado, tours, guías certificados, asistencia 24/7 y un coordinador dedicado durante toda su estancia.',
   'custom.cta': 'Solicitar Itinerario Personalizado',
   'tours.eyebrow': 'Nuestros Tours',
   'tours.title': 'Experiencias destacadas en Costa Rica',
