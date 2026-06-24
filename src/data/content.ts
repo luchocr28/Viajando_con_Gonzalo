@@ -37,7 +37,7 @@ export const tours: TourCard[] = [
         items: [
           { es: 'Volcán Póas', en: 'Póas, Volcano' },
           { es: 'Cataratas De La Paz', en: 'La Paz Waterfall' },
-          { es: 'Llegada A la Fortuna', en: 'La Fortuna Arrival' },
+          { es: 'Llegada a la Fortuna', en: 'La Fortuna Arrival' },
           { es: 'Aguas Termanles', en: 'Hot Springs' },
         ],
       },
@@ -46,7 +46,7 @@ export const tours: TourCard[] = [
         items: [
           { es: 'Bosque Nuboso', en: 'Cloud Forests' },
           { es: 'Puentes colgantes', en: 'Hanging bridges' },
-          { es: 'Descubrimiento De Fauna', en: 'Wildlife Discovery' },
+          { es: 'Descubrimiento de Fauna', en: 'Wildlife Discovery' },
 
          
         ],
@@ -181,7 +181,7 @@ export const tours: TourCard[] = [
   },
   {
     id: 'caribbean-premium',
-    image: '/CR_caribe.webp',
+    image: 'Gallery/manuelAntonio.webp',
     duration: { es: '3 días / 2 noches', en: '3 days / 2 nights' },
     price: '',
     route: {
@@ -197,7 +197,7 @@ export const tours: TourCard[] = [
         day: '1',
         items: [
           { es: 'Canales de Tortuguero', en: 'Tortuguero Canals' },
-          { es: 'Llegada y Alojamiento En Puerto Viejo', en: 'Arrival & Accommodation In Puerto Viejo' },
+          { es: 'Llegada y Alojamiento en Puerto Viejo', en: 'Arrival & Accommodation In Puerto Viejo' },
         ],
       },
       {
@@ -268,7 +268,7 @@ export const galleryItems: GalleryItem[] = [
   },
   {
     id: 'manuel-antonio',
-    image: '/CR_caribe.webp',
+    image: 'Gallery/manuelAntonio.webp',
     location: { es: 'Manuel Antonio', en: 'Manuel Antonio' },
     description: {
       es: 'Playas de arena blanca rodeadas de selva tropical en el Parque Nacional Manuel Antonio.',

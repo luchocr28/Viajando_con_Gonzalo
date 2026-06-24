@@ -156,7 +156,7 @@ const es: Record<TranslationKey, string> = {
   'custom.card5Title': 'Cultura',
   'custom.card5Desc': 'Tradiciones, gastronomía y comunidades locales.',
   'custom.card6Title': 'Naturaleza',
-  'custom.card6Desc': 'Bosques nubosos, vida silvestre y paisajes.',
+  'custom.card6Desc': 'Bosque nuboso, vida silvestre y paisajes.',
   'custom.accordion1Title': '¿Cómo creamos su itinerario?',
   'custom.accordion1Body':
     'Iniciamos con una conversación para entender sus intereses, fechas y presupuesto. Luego diseñamos un plan detallado día a día, seleccionando hoteles, tours y transporte de primera calidad.',
