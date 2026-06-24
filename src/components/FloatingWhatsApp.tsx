@@ -10,7 +10,7 @@ export default function FloatingWhatsApp() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={t('contact.whatsapp')}
-      className="group fixed bottom-5 right-5 z-50 flex items-center gap-3 rounded-full bg-[#25D366] p-4 text-white shadow-lg shadow-[#25D366]/40 transition-all duration-300 hover:scale-110 hover:bg-[#22c55e] hover:shadow-xl hover:shadow-[#25D366]/50 active:scale-105 sm:bottom-6 sm:right-6"
+      className="group fixed bottom-4 right-4 z-50 flex items-center gap-3 rounded-full bg-[#25D366] p-3.5 text-white shadow-lg shadow-[#25D366]/40 transition-all duration-300 hover:scale-110 hover:bg-[#22c55e] hover:shadow-xl hover:shadow-[#25D366]/50 active:scale-105 sm:bottom-6 sm:right-6 sm:p-4"
     >
       <svg
         viewBox="0 0 24 24"

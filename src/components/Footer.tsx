@@ -24,8 +24,8 @@ export default function Footer() {
 
   return (
     <footer className="bg-darkblue text-white">
-      <div className="container-px py-16">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
+      <div className="container-px py-12 sm:py-16">
+        <div className="grid grid-cols-1 gap-8 sm:gap-10 md:grid-cols-3">
           {/* Brand column */}
           <div>
             <a href="#inicio" aria-label="Viajando con Gonzalo Tours" className="inline-flex items-center justify-center rounded-xl bg-white px-3 py-2 transition-all duration-300 hover:bg-white/90">
@@ -34,7 +34,7 @@ export default function Footer() {
                 alt="Viajando con Gonzalo Tours"
                 width={440}
                 height={440}
-                className="h-48 w-auto object-contain"
+                className="h-28 w-auto object-contain sm:h-40 lg:h-48"
               />
             </a>
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/70">
@@ -123,7 +123,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 sm:flex-row">
+        <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-white/10 pt-6 sm:mt-12 sm:flex-row">
           <p className="text-xs text-white/50">{t('footer.copyright')}</p>
           <p className="text-xs text-white/40">
             Costa Rica · <span className="text-lightblue">Pura Vida</span>

@@ -16,29 +16,29 @@ export default function PromoBanner() {
         <div className="absolute inset-0 bg-darkblue/80" />
       </div>
 
-      <div className="container-px relative z-10 py-20 text-center text-white sm:py-28">
+      <div className="container-px relative z-10 py-16 text-center text-white sm:py-20 lg:py-28">
         <span className="reveal mb-5 inline-flex items-center gap-2 rounded-full bg-lightblue px-4 py-1.5 text-xs font-bold uppercase tracking-[0.2em] text-white shadow-lg">
           <CalendarCheck className="h-3.5 w-3.5" />
           {t('promo.badge')}
         </span>
 
-        <h2 className="reveal reveal-delay-1 mx-auto max-w-4xl font-display text-3xl font-semibold leading-tight sm:text-4xl lg:text-5xl">
+        <h2 className="reveal reveal-delay-1 mx-auto max-w-4xl font-display text-2xl font-semibold leading-tight sm:text-4xl lg:text-5xl">
           {t('promo.title')}
         </h2>
 
-        <p className="reveal reveal-delay-2 mx-auto mt-5 max-w-2xl text-base text-white/85 sm:text-lg">
+        <p className="reveal reveal-delay-2 mx-auto mt-4 max-w-2xl text-sm text-white/85 sm:mt-5 sm:text-lg">
           {t('promo.subtitle')}
         </p>
 
-        <div className="reveal reveal-delay-3 mt-10">
+        <div className="reveal reveal-delay-3 mt-8 sm:mt-10">
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-white/70">
             {t('promo.departures')}
           </p>
-          <div className="mt-5 flex flex-wrap items-center justify-center gap-4">
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-3 sm:mt-5 sm:gap-4">
             {['19 Agosto', '2 Septiembre'].map((date) => (
               <div
                 key={date}
-                className="flex items-center gap-3 rounded-2xl border border-white/20 bg-white/5 px-6 py-4 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-white/40 hover:bg-white/10"
+                className="flex items-center gap-3 rounded-2xl border border-white/20 bg-white/5 px-5 py-3 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-white/40 hover:bg-white/10 sm:px-6 sm:py-4"
               >
                 <MapPin className="h-5 w-5 text-lightblue" />
                 <div className="text-left">

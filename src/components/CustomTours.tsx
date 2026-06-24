@@ -17,7 +17,7 @@ export default function CustomTours() {
   const { t, lang } = useLanguage();
 
   return (
-    <section id="viajes-personalizados" className="relative overflow-hidden bg-darkblue py-20 text-white sm:py-28">
+    <section id="viajes-personalizados" className="relative overflow-hidden bg-darkblue py-16 text-white sm:py-20 lg:py-28">
       <div className="absolute inset-0 opacity-20">
         <img
           src="https://images.pexels.com/photos/2161467/pexels-photo-2161467.jpeg?auto=compress&cs=tinysrgb&w=1800"
@@ -41,13 +41,13 @@ export default function CustomTours() {
           </p>
         </div>
 
-        <div className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3 lg:mt-14">
           {cards.map((card, i) => {
             const Icon = card.icon;
             return (
               <div
                 key={card.titleKey}
-                className={`reveal reveal-delay-${(i % 3) + 1} group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:border-lightblue/50 hover:bg-white/10`}
+                className={`reveal reveal-delay-${(i % 3) + 1} group relative overflow-hidden rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur-sm transition-all duration-500 hover:-translate-y-2 hover:border-lightblue/50 hover:bg-white/10 sm:p-7`}
               >
                 <div className="absolute -right-8 -top-8 h-24 w-24 rounded-full bg-lightblue/10 transition-transform duration-500 group-hover:scale-150" />
                 <div className="relative z-10">

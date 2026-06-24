@@ -17,10 +17,10 @@ export default function Accordion({ items }: { items: AccordionItem[] }) {
           <div key={i}>
             <button
               onClick={() => setOpen(isOpen ? null : i)}
-              className="flex w-full items-center justify-between gap-4 px-6 py-5 text-left transition-colors hover:bg-gray-50"
+              className="flex w-full items-center justify-between gap-3 px-4 py-4 text-left transition-colors hover:bg-gray-50 sm:gap-4 sm:px-6 sm:py-5"
               aria-expanded={isOpen}
             >
-              <span className="font-display text-base font-semibold text-darkblue">
+              <span className="font-display text-sm font-semibold text-darkblue sm:text-base">
                 {item.title}
               </span>
               <span
@@ -37,7 +37,7 @@ export default function Accordion({ items }: { items: AccordionItem[] }) {
               }`}
             >
               <div className="overflow-hidden">
-                <div className="px-6 pb-5 text-sm leading-relaxed text-gray-600">
+                <div className="px-4 pb-4 text-sm leading-relaxed text-gray-600 sm:px-6 sm:pb-5">
                   {item.body}
                 </div>
               </div>

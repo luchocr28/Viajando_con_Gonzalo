@@ -42,7 +42,7 @@ export default function Gallery() {
   }, [activeIndex, close, next, prev]);
 
   return (
-    <section id="galeria" className="bg-white py-20 sm:py-28">
+    <section id="galeria" className="bg-white py-16 sm:py-20 lg:py-28">
       <div className="container-px">
         <div className="mx-auto max-w-3xl text-center">
           <span className="reveal section-eyebrow">{t('gallery.eyebrow')}</span>
@@ -52,7 +52,7 @@ export default function Gallery() {
           </p>
         </div>
 
-        <div className="reveal reveal-delay-3 mt-12 auto-rows-[200px] grid grid-cols-2 gap-4 sm:auto-rows-[220px] lg:grid-cols-4">
+        <div className="reveal reveal-delay-3 mt-10 auto-rows-[160px] grid grid-cols-2 gap-3 sm:auto-rows-[220px] sm:gap-4 lg:grid-cols-4 sm:mt-12">
           {galleryItems.map((item, i) => (
             <button
               key={item.id}
@@ -72,12 +72,12 @@ export default function Gallery() {
                   <ZoomIn className="h-5 w-5 text-white" />
                 </span>
               </div>
-              <div className="absolute bottom-0 left-0 right-0 p-5 text-left text-white">
+              <div className="absolute bottom-0 left-0 right-0 p-4 text-left text-white sm:p-5">
                 <p className="flex items-center gap-1.5 text-xs uppercase tracking-wider text-white/70">
                   <MapPin className="h-3 w-3" />
                   {String(i + 1).padStart(2, '0')}
                 </p>
-                <h3 className="mt-1 font-display text-lg font-semibold">
+                <h3 className="mt-1 font-display text-base font-semibold sm:text-lg">
                   {item.location[lang]}
                 </h3>
               </div>
@@ -93,7 +93,7 @@ export default function Gallery() {
         >
           <button
             onClick={close}
-            className="absolute right-5 top-5 flex h-11 w-11 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20"
+            className="absolute right-3 top-3 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 sm:right-5 sm:top-5 sm:h-11 sm:w-11"
             aria-label="Close"
           >
             <X className="h-5 w-5" />
@@ -104,25 +104,25 @@ export default function Gallery() {
               e.stopPropagation();
               prev();
             }}
-            className="absolute left-4 flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 sm:left-8"
+            className="absolute left-2 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 sm:left-8 sm:h-12 sm:w-12"
             aria-label="Previous"
           >
             <ChevronLeft className="h-6 w-6" />
           </button>
 
           <div
-            className="mx-auto max-w-4xl px-6"
+            className="mx-auto max-w-4xl px-4 sm:px-6"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="overflow-hidden rounded-2xl">
               <img
                 src={galleryItems[activeIndex].image}
                 alt={galleryItems[activeIndex].location[lang]}
-                className="max-h-[70vh] w-full object-contain"
+                className="max-h-[60vh] w-full object-contain sm:max-h-[70vh]"
               />
             </div>
-            <div className="mt-6 text-center text-white">
-              <h3 className="font-display text-2xl font-semibold">
+            <div className="mt-4 text-center text-white sm:mt-6">
+              <h3 className="font-display text-xl font-semibold sm:text-2xl">
                 {galleryItems[activeIndex].location[lang]}
               </h3>
               <p className="mx-auto mt-2 max-w-2xl text-sm text-white/75">
@@ -139,7 +139,7 @@ export default function Gallery() {
               e.stopPropagation();
               next();
             }}
-            className="absolute right-4 flex h-12 w-12 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 sm:right-8"
+            className="absolute right-2 flex h-10 w-10 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-white/20 sm:right-8 sm:h-12 sm:w-12"
             aria-label="Next"
           >
             <ChevronRight className="h-6 w-6" />

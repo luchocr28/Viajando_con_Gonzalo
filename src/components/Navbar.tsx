@@ -43,20 +43,20 @@ export default function Navbar() {
           : 'bg-gradient-to-b from-black/60 to-transparent'
       }`}
     >
-      <nav className="container-px flex h-24 items-center justify-between lg:h-28">
+      <nav className="container-px flex h-16 items-center justify-between sm:h-20 lg:h-28">
         {/* Brand logo */}
         <a
           href="#inicio"
           className="group flex items-center"
           aria-label="Viajando con Gonzalo Tours"
         >
-          <span className="flex items-center justify-center rounded-2xl bg-white/15 backdrop-blur-sm transition-all duration-300 group-hover:bg-white/20">
+          <span className="flex items-center justify-center rounded-xl bg-white/15 px-2 py-1 backdrop-blur-sm transition-all duration-300 group-hover:bg-white/20 sm:px-3 sm:py-1.5">
             <img
               src="VG_LOGO.png"
               alt="Viajando con Gonzalo Tours"
               width={320}
               height={320}
-              className="h-20 w-auto object-contain lg:h-24"
+              className="h-11 w-auto object-contain sm:h-16 lg:h-24"
             />
           </span>
         </a>
@@ -78,11 +78,11 @@ export default function Navbar() {
 
         {/* Right controls */}
         <div className="flex items-center gap-2">
-          <div className="relative hidden sm:block">
+          <div className="relative">
             <button
               onClick={() => setLangOpen((o) => !o)}
               onBlur={() => setTimeout(() => setLangOpen(false), 150)}
-              className="flex items-center gap-1.5 rounded-full border border-white/30 px-3 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-white/10"
+              className="flex items-center gap-1.5 rounded-full border border-white/30 px-2.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-white/10 sm:px-3"
               aria-label={t('common.language')}
             >
               <Globe className="h-3.5 w-3.5" />
@@ -113,7 +113,7 @@ export default function Navbar() {
             )}
           </div>
 
-          <a href="#contacto" className="btn-primary hidden !px-5 !py-2.5 !text-xs xl:inline-flex">
+          <a href="#contacto" className="btn-primary hidden !px-5 !py-2.5 !text-xs lg:inline-flex">
             {t('nav.startTrip')}
           </a>
 

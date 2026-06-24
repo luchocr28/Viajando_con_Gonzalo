@@ -17,9 +17,9 @@ export default function Contact() {
   const waUrl = buildWhatsAppUrl(waMessage);
 
   return (
-    <section id="contacto" className="relative overflow-hidden bg-gray-50 py-20 sm:py-28">
+    <section id="contacto" className="relative overflow-hidden bg-gray-50 py-16 sm:py-20 lg:py-28">
       <div className="container-px">
-        <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16 lg:items-center">
+        <div className="grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-16 lg:items-center">
           <div>
             <span className="reveal section-eyebrow">{t('contact.eyebrow')}</span>
             <h2 className="reveal reveal-delay-1 section-title">{t('contact.title')}</h2>
@@ -109,7 +109,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="reveal reveal-delay-2 relative">
+          <div className="reveal reveal-delay-2 relative mt-6 lg:mt-0">
             <div className="overflow-hidden rounded-3xl">
               <img
                 src="https://images.pexels.com/photos/2598683/pexels-photo-2598683.jpeg?auto=compress&cs=tinysrgb&w=1000"
@@ -118,8 +118,8 @@ export default function Contact() {
                 className="aspect-[4/3] w-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-6 -left-6 max-w-xs rounded-3xl bg-darkblue p-6 text-white shadow-2xl">
-              <p className="font-display text-3xl font-semibold text-lightblue">Pura Vida</p>
+            <div className="absolute -bottom-5 left-4 right-4 max-w-xs rounded-2xl bg-darkblue p-5 text-white shadow-2xl sm:-bottom-6 sm:left-4 sm:right-auto sm:p-6 lg:-bottom-6 lg:-left-6 lg:rounded-3xl lg:p-6">
+              <p className="font-display text-2xl font-semibold text-lightblue sm:text-3xl">Pura Vida</p>
               <p className="mt-1 text-sm text-white/80">
                 {lang === 'es'
                   ? 'Más de 30 años creando experiencias inolvidables.'

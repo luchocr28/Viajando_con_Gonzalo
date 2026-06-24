@@ -257,7 +257,7 @@ function TourCardComponent({ tour, index }: { tour: TourCard; index: number }) {
 
   return (
     <article className={`reveal reveal-delay-${(index % 3) + 1} group flex flex-col overflow-hidden rounded-3xl bg-white shadow-xl shadow-darkblue/5 ring-1 ring-gray-100 transition-all duration-500 hover:-translate-y-1 hover:shadow-2xl`}>
-      <div className="relative h-64 overflow-hidden">
+      <div className="relative h-56 overflow-hidden sm:h-64">
         <img
           src={tour.image}
           alt={title}
@@ -265,8 +265,8 @@ function TourCardComponent({ tour, index }: { tour: TourCard; index: number }) {
           className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-darkblue/80 via-darkblue/20 to-transparent" />
-        <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-          <div className="mb-2 flex flex-wrap items-center gap-3 text-xs">
+        <div className="absolute bottom-0 left-0 right-0 p-5 text-white sm:p-6">
+          <div className="mb-2 flex flex-wrap items-center gap-2 text-xs sm:gap-3">
             <span className="inline-flex items-center gap-1.5 rounded-full bg-white/15 px-3 py-1 backdrop-blur-sm">
               <Clock className="h-3 w-3" />
               {tour.duration[lang]}
@@ -277,11 +277,11 @@ function TourCardComponent({ tour, index }: { tour: TourCard; index: number }) {
               </span>
             )}
           </div>
-          <h3 className="font-display text-2xl font-semibold">{title}</h3>
+          <h3 className="font-display text-xl font-semibold sm:text-2xl">{title}</h3>
         </div>
       </div>
 
-      <div className="flex flex-1 flex-col p-6">
+      <div className="flex flex-1 flex-col p-5 sm:p-6">
         {routeList && (
           <p className="mb-4 flex items-start gap-2 text-sm text-gray-500">
             <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-lightblue" />
@@ -291,7 +291,7 @@ function TourCardComponent({ tour, index }: { tour: TourCard; index: number }) {
 
         <TourAccordion items={accordionItems} tourId={tour.id} />
 
-        <div className="mt-6 flex flex-wrap gap-3 border-t border-gray-100 pt-5">
+        <div className="mt-5 flex flex-col gap-3 border-t border-gray-100 pt-5 sm:flex-row sm:flex-wrap">
           <a
             href={buildWhatsAppUrl(ctaMessage)}
             target="_blank"
@@ -307,7 +307,7 @@ function TourCardComponent({ tour, index }: { tour: TourCard; index: number }) {
             className="inline-flex items-center justify-center gap-2 rounded-full border border-primary/30 px-5 py-3 text-sm font-semibold uppercase tracking-wider text-primary transition-all hover:bg-primary hover:text-white"
           >
             <Download className="h-4 w-4" />
-            <span className="hidden sm:inline">{t('tours.brochure')}</span>
+            <span>{t('tours.brochure')}</span>
           </a>
         </div>
       </div>
@@ -318,7 +318,7 @@ function TourCardComponent({ tour, index }: { tour: TourCard; index: number }) {
 export default function Tours() {
   const { t } = useLanguage();
   return (
-    <section id="tours" className="bg-gray-50 py-20 sm:py-28">
+    <section id="tours" className="bg-gray-50 py-16 sm:py-20 lg:py-28">
       <div className="container-px">
         <div className="mx-auto max-w-3xl text-center">
           <span className="reveal section-eyebrow">{t('tours.eyebrow')}</span>
@@ -328,7 +328,7 @@ export default function Tours() {
           </p>
         </div>
 
-        <div className="mt-14 grid grid-cols-1 gap-8 lg:grid-cols-3">
+        <div className="mt-10 grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-3 lg:mt-14">
           {tours.map((tour, i) => (
             <TourCardComponent key={tour.id} tour={tour} index={i} />
           ))}
