@@ -325,11 +325,6 @@ const en: Record<TranslationKey, string> = {
   'why.item7Desc': 'Private or shared solutions as you prefer.',
   'why.item8Title': 'Custom itineraries',
   'why.item8Desc': 'Every trip is designed to your interests.',
-  'discover.eyebrow': 'Discover Costa Rica',
-  'discover.title': 'One country, infinite experiences',
-  'discover.subtitle': 'Six natural worlds in a single destination.',
-  'testimonial.quote':
-    'Costa Rica is not just a destination; it is an experience that will stay with you forever.',
   'testimonial.attribute': 'Viajando con Gonzalo Tours',
   'contact.eyebrow': 'Contact',
   'contact.title': 'Ready to discover Costa Rica?',
