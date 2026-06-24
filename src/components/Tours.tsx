@@ -76,7 +76,7 @@ function TourCardComponent({ tour, index }: { tour: TourCard; index: number }) {
       <ol className="space-y-3">
         {tour.itinerary.map((day) => (
           <li key={day.day} className="flex gap-3">
-            <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-primary text-xs font-bold text-white">
+            <span className="flex h-7 w-10 shrink-0 items-center justify-center rounded-full bg-primary text-xs font-bold text-white">
               {day.day}
             </span>
             <div>

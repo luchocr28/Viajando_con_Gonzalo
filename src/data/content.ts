@@ -31,7 +31,48 @@ export const tours: TourCard[] = [
       es: 'Un viaje completo de 8 días por los escenarios más icónicos de Costa Rica: volcanes, bosques nubosos, selva tropical y playas del Pacífico.',
       en: 'An 8-day complete journey across Costa Rica\u2019s most iconic sceneries: volcanoes, cloud forests, rainforest and Pacific beaches.',
     },
-    itinerary: [],
+    itinerary: [
+       {
+        day: '1 & 2',
+        items: [
+          { es: 'Volcán Póas', en: 'Póas, Volcano' },
+          { es: 'Cataratas De La Paz', en: 'La Paz Waterfall' },
+          { es: 'Llegada A la Fortuna', en: 'La Fortuna Arrival' },
+          { es: 'Aguas Termanles', en: 'Hot Springs' },
+        ],
+      },
+      {
+        day: '3 & 4',
+        items: [
+          { es: 'Bosque Nuboso', en: 'Cloud Forests' },
+          { es: 'Puentes colgantes', en: 'Hanging bridges' },
+          { es: 'Descubrimiento De Fauna', en: 'Wildlife Discovery' },
+
+         
+        ],
+      },
+      {
+        day: '5 & 6',
+        items: [
+          { es: 'Parque Nacional Manuel Antonio', en: 'National Park Manuel Antonio' },
+          { es: 'Playas Manuel Antonio', en: 'Manuel Antonio Beaches' },
+          { es: 'Monos y Osos Perezosos', en: 'Monkeys & Sloth bears' },
+
+          
+        ],
+      },
+       {
+        day: '7 & 8',
+        items: [
+          { es: 'Observación de Fauna Marina', en: 'Marine wildlife Viewing' },
+          { es: 'Avistamiento de Cocodrilos', en: 'Crocodile Sightings' },
+          { es: 'Cena Típica Costarricense', en: 'Traditional Costa Rican Dinner' },
+          { es: 'Regreso a San José', en: 'Return to San José' },
+
+          
+        ],
+      },
+    ],
     includes: {
       es: [
         '7 noches de alojamiento',
@@ -54,9 +95,8 @@ export const tours: TourCard[] = [
     },
     hotels: [
       { name: 'Hilton Garden Inn San José', url: 'https://www.hilton.com/en/hotels/sjohigi-hilton-garden-inn-san-jose-costa-rica/' },
-      { name: 'Arenal Manoa La Fortuna', url: 'https://www.arenalmanoa.com/' },
-      { name: 'Monteverde Country Lodge', url: 'https://www.monteverdecountrylodge.com/' },
-      { name: 'Alma Vida Hotel Manuel Antonio', url: 'https://www.almarma.com/' },
+      { name: 'Hotel Los Lagos Spa & Resort', url: ' https://los-lagos-spa-thermal-resort-experience.bookstaygo.com/es' },
+      { name: 'Alma Vida Hotel Manuel Antonio', url: 'https://www.almavidahotel.com/' },
     ],
     optionalActivities: [
       {
@@ -83,7 +123,10 @@ export const tours: TourCard[] = [
     image: '/CR_forest.webp',
     duration: { es: '3 días / 2 noches', en: '3 days / 2 nights' },
     price: '',
-    route: { es: [], en: [] },
+    route: {
+      es: ['San José', 'Monteverde', 'Río Celeste'],
+      en: ['San José', 'Monteverde', 'Celeste River'],
+    },
     overview: {
       es: 'Una escapada al bosque nuboso de Monteverde con puentes colgantes, vida nocturna y una visita al legendario Río Celeste.',
       en: 'A getaway to the Monteverde cloud forest with hanging bridges, night wildlife and a visit to the legendary Río Celeste.',
@@ -110,14 +153,25 @@ export const tours: TourCard[] = [
           { es: 'Río Celeste', en: 'Río Celeste' },
           { es: 'Regreso', en: 'Return' },
         ],
-      },
+      },  
     ],
     includes: {
       es: ['Hotel', 'Desayuno', 'Transporte', 'Entrada al Río Celeste'],
       en: ['Hotel', 'Breakfast', 'Transportation', 'Río Celeste entrance'],
     },
-    hotels: [],
-    optionalActivities: [],
+    hotels: [
+         { name: 'Monteverde Country Lodge', url: 'https://www.monteverdecountrylodge.com/' },
+
+    ],
+    optionalActivities: [
+      {
+        title: { es: 'Monteverde', en: 'Monteverde' },
+        items: [
+          { es: 'Puentes colgantes', en: 'Hanging bridges' },
+          { es: 'Actividades al aire libre', en: 'Outdoor activities' },
+        ],
+      },
+    ],
     departures: [],
     additionalInfo: {
       es: 'Salidas privadas bajo reserva. Sujeto a disponibilidad de temporada seca. Recomendamos llevar ropa ligera, repelente de insectos y calzado cómodo para senderos.',
@@ -131,20 +185,49 @@ export const tours: TourCard[] = [
     duration: { es: '3 días / 2 noches', en: '3 days / 2 nights' },
     price: '',
     route: {
-      es: ['Tortuguero', 'Cahuita', 'Punta Uva', 'Centro de rescate de vida silvestre'],
-      en: ['Tortuguero', 'Cahuita', 'Punta Uva', 'Wildlife rescue center'],
+      es: ['San José', 'Tortuguero', 'Cahuita', 'Punta Uva', 'Centro de rescate de vida silvestre'],
+      en: ['San José', 'Tortuguero', 'Cahuita', 'Punta Uva', 'Wildlife rescue center'],
     },
     overview: {
       es: 'Un recorrido por el Caribe costarricense: canales de Tortuguero, arrecifes de Cahuita, playas vírgenes de Punta Uva y rescate de fauna silvestre.',
       en: 'A journey through the Costa Rican Caribbean: Tortuguero canals, Cahuita reefs, pristine Punta Uva beaches and wildlife rescue.',
     },
-    itinerary: [],
+    itinerary: [
+       {
+        day: '1',
+        items: [
+          { es: 'Canales de Tortuguero', en: 'Tortuguero Canals' },
+          { es: 'Llegada y Alojamiento En Puerto Viejo', en: 'Arrival & Accommodation In Puerto Viejo' },
+        ],
+      },
+      {
+        day: '2',
+        items: [
+          { es: 'Parque Nacional Cahuita', en: 'National Park Cahuita' },
+          { es: 'Playas de Punta Uva', en: 'Punta Uva Beaches' },
+          { es: 'Regreso a Puerto Viejo', en: 'Return To Puerto Viejo' },
+
+         
+        ],
+      },
+      {
+        day: '3',
+        items: [
+          { es: 'Visita al Centro de Rescate de Fauna Silvestre', en: 'Wildlife Rescue Center Tour' },
+          { es: 'Regreso a San José', en: 'Return to San José' },
+          
+        ],
+      },
+    ],
     includes: {
       es: ['Hotel', 'Desayuno', 'Transporte', 'Tour por canales', 'Guía naturalista'],
       en: ['Hotel', 'Breakfast', 'Transportation', 'Canal tour', 'Naturalist guide'],
     },
     hotels: [],
-    optionalActivities: [],
+    optionalActivities: [
+
+      
+    ],
     departures: [],
     additionalInfo: {
       es: 'Salidas privadas bajo reserva. Sujeto a disponibilidad de temporada seca. Recomendamos llevar ropa ligera, repelente de insectos y calzado cómodo para senderos.',
