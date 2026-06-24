@@ -182,7 +182,7 @@ export const tours: TourCard[] = [
   },
   {
     id: 'caribbean-premium',
-    image: 'Gallery/manuelAntonio.webp',
+    image: 'CR_Tortugero.webp',
     duration: { es: '3 días / 2 noches', en: '3 days / 2 nights' },
     price: '',
     route: {
