@@ -112,7 +112,7 @@ export default function Contact() {
           <div className="reveal reveal-delay-2 relative mt-6 lg:mt-0">
             <div className="overflow-hidden rounded-3xl">
               <img
-                src="Gonzalo.webp"
+                src="https://images.pexels.com/photos/2598683/pexels-photo-2598683.jpeg?auto=compress&cs=tinysrgb&w=1000"
                 alt="Costa Rica beach"
                 loading="lazy"
                 className="aspect-[4/3] w-full object-cover"

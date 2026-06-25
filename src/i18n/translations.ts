@@ -209,7 +209,7 @@ const es: Record<TranslationKey, string> = {
     'Costa Rica no es solo un destino; es una experiencia que permanecerá con usted para siempre.',
   'testimonial.attribute': 'Viajando con Gonzalo Tours',
   'contact.eyebrow': 'Contacto',
-  'contact.title': '¿Listo para descubrir Costa\u00A0Rica?',
+  'contact.title': '¿Listo para descubrir Costa Rica?',
   'contact.text': 'Permítanos ayudarle a planificar unas vacaciones inolvidables.',
   'contact.whatsapp': 'Consultas y Reservaciones',
   'contact.phoneLabel': 'Teléfono',
