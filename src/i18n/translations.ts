@@ -352,7 +352,7 @@ const en: Record<TranslationKey, string> = {
 export const translations: Record<Language, Record<TranslationKey, string>> = { es, en };
 
 export const tourTitles: Record<'three-wonders' | 'monteverde-experience' | 'caribbean-premium', Record<Language, string>> = {
-  'three-wonders': { es: 'Costa Rica Three Wonders', en: 'Costa Rica Three Wonders' },
+  'three-wonders': { es: 'Costa Rica Wonders', en: 'Costa Rica Wonders' },
   'monteverde-experience': { es: 'Monteverde Experience', en: 'Monteverde Experience' },
   'caribbean-premium': { es: 'Caribe Premium', en: 'Caribbean Premium' },
 };
