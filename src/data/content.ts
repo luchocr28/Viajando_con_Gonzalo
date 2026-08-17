@@ -28,8 +28,8 @@ export const tours: TourCard[] = [
       en: ['San José', 'Poás Volcano', 'La Fortuna', 'Monteverde', 'Manuel Antonio', 'Marino Ballena', 'Tárcoles River'],
     },
     overview: {
-      es: 'Un viaje completo de 8 días por los escenarios más icónicos de Costa Rica: volcanes, bosques nubosos, selva tropical y playas del Pacífico.',
-      en: 'An 8-day complete journey across Costa Rica\u2019s most iconic sceneries: volcanoes, cloud forests, rainforest and Pacific beaches.',
+      es: 'Un viaje completo de 11 días Y 10 noches por los escenarios más icónicos de Costa Rica: volcanes, bosques nubosos, selva tropical y playas del Pacífico.',
+      en: 'An 11-day complete journey across Costa Rica\u2019s most iconic sceneries: volcanoes, cloud forests, rainforest and Pacific beaches.',
     },
     itinerary: [
        {
