@@ -24,8 +24,8 @@ export const tours: TourCard[] = [
     duration: { es: '10 días / 11 noches', en: '10 days / 11 nights' },
     price: 'Desde USD $1,990 por persona',
     route: {
-      es: ['San José', 'Volcán Poás', 'La Fortuna', 'Monteverde', 'Manuel Antonio', 'Marino Ballena', 'Río Tárcoles'],
-      en: ['San José', 'Poás Volcano', 'La Fortuna', 'Monteverde', 'Manuel Antonio', 'Marino Ballena', 'Tárcoles River'],
+      es: ['San José', 'Cartago', 'Volcán Poás', 'La Fortuna', 'Monterverde', 'Manuel Antonio', 'Marino Ballena', 'Tarcoles', 'San José'],
+      en: ['San José', 'Cartago', 'Volcán Poás', 'La Fortuna', 'Monterverde', 'Manuel Antonio', 'Marino Ballena', 'Tarcoles', 'San José']
     },
     overview: {
       es: 'Un viaje completo de 11 días Y 10 noches por los escenarios más icónicos de Costa Rica: volcanes, bosques nubosos, selva tropical y playas del Pacífico.',
@@ -75,16 +75,17 @@ export const tours: TourCard[] = [
     ],
     includes: {
       es: [
-        '7 noches de alojamiento',
+        '11 noches de alojamiento',
         'Desayuno diario',
         'Transporte terrestre',
         'Entrada a aguas termales',
         'Tour guiado en Manuel Antonio',
         'Cena de despedida costarricense',
         'Asistencia de viaje',
+        'Desayuno diario y Opción de media pensión'
       ],
       en: [
-        '7 nights accommodation',
+        '11 nights accommodation',
         'Daily breakfast',
         'Ground transportation',
         'Hot springs entrance',
