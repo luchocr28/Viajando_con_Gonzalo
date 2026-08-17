@@ -33,54 +33,82 @@ export const tours: TourCard[] = [
     },
     itinerary: [
        {
-        day: '1 & 2',
+        day: '1',
         items: [
-          { es: 'Volcán Póas', en: 'Póas, Volcano' },
-          { es: 'Cataratas De La Paz', en: 'La Paz Waterfall' },
-          { es: 'Llegada a la Fortuna', en: 'La Fortuna Arrival' },
-          { es: 'Aguas Termanles', en: 'Hot Springs' },
+          { es: 'Bienvenidos A Costa Rica', en: 'Welcome To CostaRica' },
         ],
       },
       {
-        day: '3 & 4',
+        day: '2',
         items: [
-          { es: 'Bosque Nuboso', en: 'Cloud Forests' },
-          { es: 'Puentes colgantes', en: 'Hanging bridges' },
-          { es: 'Descubrimiento de Fauna', en: 'Wildlife Discovery' },
+          { es: 'Cartago Valle De Orosi', en: 'Cartago Orosi Valley' },
 
          
         ],
       },
       {
-        day: '5 & 6',
+        day: '3',
         items: [
-          { es: 'Parque Nacional Manuel Antonio', en: 'National Park Manuel Antonio' },
-          { es: 'Playas Manuel Antonio', en: 'Manuel Antonio Beaches' },
-          { es: 'Monos y Osos Perezosos', en: 'Monkeys & Sloth bears' },
-
-          
+          { es: 'Volcán Poás, Catarata La Paz Y La Fortuna', en: 'Poás Volcano, La Paz Waterfall And La Fortuna' },          
         ],
       },
        {
-        day: '7 & 8',
+        day: '4',
         items: [
-          { es: 'Observación de Fauna Marina', en: 'Marine wildlife Viewing' },
-          { es: 'Avistamiento de Cocodrilos', en: 'Crocodile Sightings' },
-          { es: 'Cena Típica Costarricense', en: 'Traditional Costa Rican Dinner' },
-          { es: 'Regreso a San José', en: 'Return to San José' },
-
-          
+          { es: 'Arenal: Volcán, Lago Y Relax', en: 'Arenal: Volcano, Lake And Relax' },          
         ],
       },
+         {
+        day: '5',
+        items: [
+          { es: 'Río Celeste Y Monteverde', en: 'Río Celeste And Monteverde' },          
+        ],
+      },
+         {
+        day: '6',
+        items: [
+          { es: 'Monteverde', en: 'Monteverde' },          
+        ],
+      },
+         {
+        day: '7',
+        items: [
+          { es: 'Camino Al Pacífico', en: 'Journey To The Pacific' },          
+        ],
+      },
+         {
+        day: '8',
+        items: [
+          { es: 'Parque Nacional Marino Ballena', en: 'Marino Ballena National Park' },          
+        ],
+      },
+         {
+        day: '9',
+        items: [
+          { es: 'Parque Nacional Manuel Antonio', en: 'Manuel Antonio National Park' },          
+        ],
+      },
+         {
+        day: '10',
+        items: [
+          { es: 'Regreso A San José', en: 'Back to SJ.' },          
+        ],
+      },
+         {
+        day: '11',
+        items: [
+          { es: 'Despedida de Costa Rica', en: 'Good Bye Costa Rica' },          
+        ],
+      },
+       
     ],
     includes: {
       es: [
         '11 noches de alojamiento',
         'Desayuno diario',
         'Transporte terrestre',
-        'Entrada a aguas termales',
         'Tour guiado en Manuel Antonio',
-        'Cena de despedida costarricense',
+        'Cena tipica costarrincense',
         'Asistencia de viaje',
         'Desayuno diario y Opción de media pensión'
       ],
@@ -88,17 +116,16 @@ export const tours: TourCard[] = [
         '11 nights accommodation',
         'Daily breakfast',
         'Ground transportation',
-        'Hot springs entrance',
         'Manuel Antonio guided tour',
-        'Costa Rican farewell dinner',
+        'Traditional Costa Rican dinner',
         'Travel assistance',
       ],
     },
     hotels: [
       { name: 'Hilton Garden Inn San José', url: 'https://www.hilton.com/en/hotels/sjohigi-hilton-garden-inn-san-jose-costa-rica/' },
-      { name: 'Hotel Los Lagos Spa & Resort', url: ' https://los-lagos-spa-thermal-resort-experience.bookstaygo.com/es' },
+      { name: 'Volcano Lodge o Hotel Los Lagos Spa', url: ' https://los-lagos-spa-thermal-resort-experience.bookstaygo.com/es' },
       { name: 'Monteverde Country Lodge', url: 'https://www.monteverdecountrylodge.com/' },
-      { name: 'Alma Vida Hotel Manuel Antonio', url: 'https://www.almavidahotel.com/' }, 
+      { name: 'Hotel Alma Vida', url: 'https://www.almavidahotel.com/' }, 
     ],
     optionalActivities: [
       {
@@ -113,9 +140,9 @@ export const tours: TourCard[] = [
         items: [{ es: 'Experiencia de vela y catamarán', en: 'Sailing and catamaran experience' }],
       },
     ],
-    departures: ['19 Agosto', '2 Septiembre'],
+    departures: ['Marzo 12, 2027', 'Abril 9, 2027', 'Mayo 7, 2027', 'Junio 11, 2027' , 'Julio 23, 2027', , 'Agosto 29, 2027',      'Septiembre 19, 2027'],
     additionalInfo: {
-      es: 'Salidas garantizadas en agosto y septiembre. Cupos limitados. Reserva con anticipación para asegurar disponibilidad de hoteles y tours.',
+      es: 'Cupos limitados. Reserva con anticipación para asegurar disponibilidad de hoteles y tours.',
       en: 'Guaranteed departures in August and September. Limited spots. Book in advance to secure hotel and tour availability.',
     },
     brochureUrl: 'brochures/T1.png',
