@@ -329,7 +329,7 @@ export default function Tours() {
         </div>
 
         <div className="mt-10 grid grid-cols-1 gap-6 sm:gap-8 lg:grid-cols-3 lg:mt-14">
-          {tours.map((tour, i) => (
+          {tours.filter((tour) => tour.id !== 'caribbean-premium').map((tour, i) => (
             <TourCardComponent key={tour.id} tour={tour} index={i} />
           ))}
         </div>
