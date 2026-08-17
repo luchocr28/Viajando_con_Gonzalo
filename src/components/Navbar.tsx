@@ -35,6 +35,7 @@ export default function Navbar() {
 
   const solid = scrolled || mobileOpen;
 
+<<<<<<< HEAD
   return (
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-500 ${
@@ -42,6 +43,47 @@ export default function Navbar() {
           ? 'bg-darkblue/95 shadow-lg shadow-darkblue/10 backdrop-blur-md'
           : 'bg-gradient-to-b from-black/60 to-transparent'
       }`}
+=======
+  const headerBg = solid
+    ? 'bg-white shadow-lg shadow-black/5'
+    : 'bg-gradient-to-b from-black/60 to-transparent';
+
+  const linkText = solid
+    ? 'text-black/80 hover:text-black'
+    : 'text-white/90 hover:text-white';
+
+  const underlineBg = solid ? 'bg-black' : 'bg-white';
+
+  const toggleBorder = solid
+    ? 'border-black/20 text-black hover:bg-black/5'
+    : 'border-white/30 text-white hover:bg-white/10';
+
+  const dropdownBg = solid
+    ? 'border-black/10 bg-white'
+    : 'border-white/10 bg-darkblue/95';
+
+  const dropdownText = solid ? 'text-black' : 'text-white';
+
+  const menuBtn = solid
+    ? 'text-black hover:bg-black/5'
+    : 'text-white hover:bg-white/10';
+
+  const drawerBorder = solid ? 'border-black/10' : 'border-white/10';
+  const drawerLink = solid
+    ? 'text-black/80 hover:bg-black/5'
+    : 'text-white/90 hover:bg-white/10';
+  const drawerLang = solid
+    ? 'border-black/20 text-black/80'
+    : 'border-white/20 text-white/80';
+
+  const logoWrap = solid
+    ? 'bg-transparent'
+    : 'bg-white/15 backdrop-blur-sm group-hover:bg-white/20';
+
+  return (
+    <header
+      className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${headerBg}`}
+>>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
     >
       <nav className="container-px flex h-16 items-center justify-between sm:h-20 lg:h-28">
         {/* Brand logo */}
@@ -50,7 +92,11 @@ export default function Navbar() {
           className="group flex items-center"
           aria-label="Viajando con Gonzalo Tours"
         >
+<<<<<<< HEAD
           <span className="flex items-center justify-center rounded-xl bg-white/15 px-2 py-1 backdrop-blur-sm transition-all duration-300 group-hover:bg-white/20 sm:px-3 sm:py-1.5">
+=======
+          <span className={`flex items-center justify-center rounded-xl px-2 py-1 transition-all duration-300 sm:px-3 sm:py-1.5 ${logoWrap}`}>
+>>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
             <img
               src="VG_LOGO.png"
               alt="Viajando con Gonzalo Tours"
@@ -67,10 +113,17 @@ export default function Navbar() {
             <li key={item.key}>
               <a
                 href={item.href}
+<<<<<<< HEAD
                 className="group relative px-3.5 py-2 text-sm font-medium text-white/90 transition-colors hover:text-white"
               >
                 {t(item.key)}
                 <span className="absolute inset-x-3.5 -bottom-0.5 h-px origin-left scale-x-0 bg-white transition-transform duration-300 group-hover:scale-x-100" />
+=======
+                className={`group relative px-3.5 py-2 text-sm font-medium transition-colors duration-300 ${linkText}`}
+              >
+                {t(item.key)}
+                <span className={`absolute inset-x-3.5 -bottom-0.5 h-px origin-left scale-x-0 transition-transform duration-300 group-hover:scale-x-100 ${underlineBg}`} />
+>>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
               </a>
             </li>
           ))}
@@ -82,7 +135,11 @@ export default function Navbar() {
             <button
               onClick={() => setLangOpen((o) => !o)}
               onBlur={() => setTimeout(() => setLangOpen(false), 150)}
+<<<<<<< HEAD
               className="flex items-center gap-1.5 rounded-full border border-white/30 px-2.5 py-1.5 text-xs font-semibold text-white transition-colors hover:bg-white/10 sm:px-3"
+=======
+              className={`flex items-center gap-1.5 rounded-full border px-2.5 py-1.5 text-xs font-semibold transition-colors duration-300 sm:px-3 ${toggleBorder}`}
+>>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
               aria-label={t('common.language')}
             >
               <Globe className="h-3.5 w-3.5" />
@@ -92,7 +149,11 @@ export default function Navbar() {
               />
             </button>
             {langOpen && (
+<<<<<<< HEAD
               <div className="absolute right-0 mt-2 w-32 overflow-hidden rounded-xl border border-white/10 bg-darkblue/95 shadow-2xl backdrop-blur-md">
+=======
+              <div className={`absolute right-0 mt-2 w-32 overflow-hidden rounded-xl border shadow-2xl backdrop-blur-md ${dropdownBg}`}>
+>>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
                 {(['es', 'en'] as Language[]).map((l) => (
                   <button
                     key={l}
@@ -101,9 +162,15 @@ export default function Navbar() {
                       setLang(l);
                       setLangOpen(false);
                     }}
+<<<<<<< HEAD
                     className={`flex w-full items-center justify-between px-3 py-2 text-xs font-medium text-white transition-colors hover:bg-primary/40 ${
                       lang === l ? 'bg-primary/30' : ''
                     }`}
+=======
+                    className={`flex w-full items-center justify-between px-3 py-2 text-xs font-medium transition-colors hover:bg-primary/40 ${
+                      lang === l ? 'bg-primary/30' : ''
+                    } ${dropdownText}`}
+>>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
                   >
                     <span>{l === 'es' ? 'Español' : 'English'}</span>
                     <span>{l === 'es' ? '🇨🇷' : '🇺🇸'}</span>
@@ -119,7 +186,11 @@ export default function Navbar() {
 
           <button
             onClick={() => setMobileOpen((o) => !o)}
+<<<<<<< HEAD
             className="flex h-10 w-10 items-center justify-center rounded-full text-white transition-colors hover:bg-white/10 lg:hidden"
+=======
+            className={`flex h-10 w-10 items-center justify-center rounded-full transition-colors duration-300 lg:hidden ${menuBtn}`}
+>>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
             aria-label={t('common.menu')}
           >
             {mobileOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -130,21 +201,33 @@ export default function Navbar() {
       {/* Mobile drawer */}
       {mobileOpen && (
         <div className="lg:hidden">
+<<<<<<< HEAD
           <div className="container-px border-t border-white/10 py-4">
+=======
+          <div className={`container-px border-t py-4 transition-colors duration-300 ${drawerBorder}`}>
+>>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
             <ul className="flex flex-col gap-1">
               {navItems.map((item) => (
                 <li key={item.key}>
                   <a
                     href={item.href}
                     onClick={() => setMobileOpen(false)}
+<<<<<<< HEAD
                     className="block rounded-lg px-3 py-2.5 text-sm font-medium text-white/90 transition-colors hover:bg-white/10"
+=======
+                    className={`block rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${drawerLink}`}
+>>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
                   >
                     {t(item.key)}
                   </a>
                 </li>
               ))}
             </ul>
+<<<<<<< HEAD
             <div className="mt-4 flex items-center gap-2 border-t border-white/10 pt-4">
+=======
+            <div className={`mt-4 flex items-center gap-2 border-t pt-4 ${drawerBorder}`}>
+>>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
               {(['es', 'en'] as Language[]).map((l) => (
                 <button
                   key={l}
@@ -152,7 +235,11 @@ export default function Navbar() {
                   className={`flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors ${
                     lang === l
                       ? 'border-primary bg-primary text-white'
+<<<<<<< HEAD
                       : 'border-white/20 text-white/80'
+=======
+                      : drawerLang
+>>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
                   }`}
                 >
                   <span>{l === 'es' ? '🇨🇷' : '🇺🇸'}</span>

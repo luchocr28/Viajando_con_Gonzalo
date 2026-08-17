@@ -125,7 +125,7 @@ const es: Record<TranslationKey, string> = {
   'hero.scroll': 'Desliza para descubrir',
   'promo.badge': 'Salida Garantizada',
   'promo.title': '🇨🇷 Su viaje a Costa Rica comienza aquí',
-  'promo.subtitle': 'Fechas garantizadas de diciembre 2026 a octubre 2027',
+  'promo.subtitle': 'Fechas garantizadas 2027',
   'promo.departures': 'Próximas salidas garantizadas',
   'promo.dates': 'del 19 de Agosto y 2 de Septiembre',
   'about.eyebrow': 'Sobre Nosotros',
