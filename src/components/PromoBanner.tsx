@@ -4,6 +4,16 @@ import { useLanguage } from '../hooks/useLanguage';
 export default function PromoBanner() {
   const { t } = useLanguage();
 
+  const departureDates = [
+    { day: '12', month: 'Marzo' },
+    { day: '9', month: 'Abril' },
+    { day: '7', month: 'Mayo' },
+    { day: '11', month: 'Junio' },
+    { day: '23', month: 'Julio' },
+    { day: '29', month: 'Agosto' },
+    { day: '19', month: 'Septiembre' },
+  ];
+
   return (
     <section id="promo" className="relative overflow-hidden">
       <div className="absolute inset-0">
@@ -34,40 +44,22 @@ export default function PromoBanner() {
           <p className="text-xs font-semibold uppercase tracking-[0.3em] text-white/70">
             {t('promo.departures')}
           </p>
+
           <div className="mt-4 flex flex-wrap items-center justify-center gap-3 sm:mt-5 sm:gap-4">
-<<<<<<< HEAD
-            {['19 Agosto', '2 Septiembre'].map((date) => (
+            {departureDates.map((date) => (
               <div
-                key={date}
-=======
-            {[
-              { day: '12', month: 'Marzo' },
-              { day: '9', month: 'Abril' },
-              { day: '7', month: 'Mayo' },
-              { day: '11', month: 'Junio' },
-              { day: '23', month: 'Julio' },
-              { day: '29', month: 'Agosto' },
-              { day: '19', month: 'Septiembre' },
-            ].map((d) => (
-              <div
-                key={`${d.day}-${d.month}`}
->>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
+                key={`${date.day}-${date.month}`}
                 className="flex items-center gap-3 rounded-2xl border border-white/20 bg-white/5 px-5 py-3 backdrop-blur-md transition-all duration-300 hover:-translate-y-1 hover:border-white/40 hover:bg-white/10 sm:px-6 sm:py-4"
               >
                 <MapPin className="h-5 w-5 text-lightblue" />
+
                 <div className="text-left">
                   <p className="text-xs uppercase tracking-wider text-white/60">
-<<<<<<< HEAD
-                    {date === '19 Agosto' ? 'Agosto' : 'Septiembre'}
+                    {date.month}
                   </p>
+
                   <p className="font-display text-xl font-semibold text-white">
-                    {date.split(' ')[0]}
-=======
-                    {d.month}
-                  </p>
-                  <p className="font-display text-xl font-semibold text-white">
-                    {d.day}
->>>>>>> 2e783f770f9eea0744c7f745962db93abbbfe08c
+                    {date.day}
                   </p>
                 </div>
               </div>
