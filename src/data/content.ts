@@ -145,7 +145,7 @@ export const tours: TourCard[] = [
       es: 'Cupos limitados. Reserva con anticipación para asegurar disponibilidad de hoteles y tours.',
       en: 'Guaranteed departures in August and September. Limited spots. Book in advance to secure hotel and tour availability.',
     },
-    brochureUrl: 'brochures/T1.png',
+    brochureUrl: 'https://maravillas-costa-rica.g560511.chatgpt.site',
   },
   {
     id: 'monteverde-experience',
