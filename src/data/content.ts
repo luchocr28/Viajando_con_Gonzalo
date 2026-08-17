@@ -21,7 +21,7 @@ export const tours: TourCard[] = [
   {
     id: 'three-wonders',
     image: 'CR_vocalno.webp',
-    duration: { es: '8 días / 7 noches', en: '8 days / 7 nights' },
+    duration: { es: '10 días / 11 noches', en: '10 days / 11 nights' },
     price: 'Desde USD $1,990 por persona',
     route: {
       es: ['San José', 'Volcán Poás', 'La Fortuna', 'Monteverde', 'Manuel Antonio', 'Marino Ballena', 'Río Tárcoles'],
